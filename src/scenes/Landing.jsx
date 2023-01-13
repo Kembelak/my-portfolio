@@ -75,18 +75,15 @@ const Landing = ({setSelectedPage}) => {
                 {/* CALL TO ACTIONS */}
                 <motion.div
                     className='flex mt-5 justify-center md:justify-start'
-                    initial="hidden"
-                    whileInView="visible"
-                    viewport={{once:true,amount:0.5}}
-                    transition={{delay:1 ,duration:2}}
-                    variants={{
-                        hidden:{ opacity:0 , x: -350},
-                        visible:{ opacity:1 , x:0 }
-                    }}
+                    // initial={{opacity:0}}
+                    // animate={{opacity:1}}
+                    // whileInView="visible"
+                    // viewport={{once:true,amount:0.1}}
+                    // transition={{duration:2}}
                 >   
                     <div className='flex justify-evenly w-full'>
                     <AnchorLink
-                        className="bg-gradient-rainbow text-deep-blue rounded-xl	 py-5 px-7 font-semibold
+                        className="bg-gradient-rainbow text-deep-blue rounded-xl py-5 px-7 font-semibold
                         hover:bg-light-blue hover:text-white hover:shadow-btnShadow transition duration-500"
                         onClick={()=> setSelectedPage("contact")}
                         href="#contact"
