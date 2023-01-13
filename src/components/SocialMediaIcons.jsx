@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 import Linkedin from "../assets/linkedin.png"
 import WhatsApp from "../assets/whatsapp.png"
-import Facebook from "../assets/facebook.png"
+import Github from "../assets/Github.png"
 import Instagram from "../assets/instagram.png"
 
 const SocialMediaIcons = () => {
@@ -36,12 +36,12 @@ const SocialMediaIcons = () => {
         </a>
 
         <a 
-            className='hover:opacity-50 transition duration-500'
-            href='https://t.me/wil_i_am'
+            className='hover:opacity-50 transition duration-500 w-9'
+            href='https://github.com/Kembelak'
             target="_blank"
             rel="noreferrer"
         >
-            <img alt='facebook-link' src={Facebook}/>
+            <img alt='Github-link' src={Github}/>
         </a>
 
         <a 
