@@ -1,10 +1,10 @@
 import React from 'react';
 
-import SocialMediaIcons from "../components/SocialMediaIcons"
-import useMediaQuery from "../hooks/UseMediaQuery";
+import SocialMediaIcons from "../../components/SocialMediaIcons"
+import useMediaQuery from "../../hooks/UseMediaQuery";
 import { motion } from 'framer-motion';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
-import profileImage from "../assets/willy.png"
+import profileImage from "../../assets/willy.png"
 
 
 
@@ -79,7 +79,7 @@ const Landing = ({setSelectedPage}) => {
                     // animate={{opacity:1}}
                     // whileInView="visible"
                     // viewport={{once:true,amount:0.1}}
-                    // transition={{duration:2}}
+                    // transition={{duration:0.9}}
                 >   
                     <div className='flex justify-evenly w-full'>
                     <AnchorLink

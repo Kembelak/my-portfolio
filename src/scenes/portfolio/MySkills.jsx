@@ -1,7 +1,7 @@
-import LineGradient from '../components/LineGradient';
-import useMediaQuery from "../hooks/UseMediaQuery";
+import LineGradient from '../../components/LineGradient';
+import useMediaQuery from "../../hooks/UseMediaQuery";
 import { motion } from 'framer-motion';
-import SkillsImage from "../assets/skills-image.png"
+import SkillsImage from "../../assets/skills-image.png"
 
 const MySkills = () => {
     const isAboveMediumScreens = useMediaQuery("(min-width: 1060px)")
@@ -66,7 +66,7 @@ const MySkills = () => {
                             <p className='font-playfair font-semibold text-5xl'>01</p>
                             <p className='font-playfair font-semibold text-3xl mt-3'>Experience</p>
                         </div>
-                        <di className='w-1/2 md:w-3/4 h-32 bg-blue absolute right-0 top-0 z-[-1]'/>
+                        <div className='w-1/2 md:w-3/4 h-32 bg-blue absolute right-0 top-0 z-[-1]'/>
                     </div>
                     <p className='mt-5'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati commodi, nihil eum dolores omnis aliquid voluptate nostrum a voluptatum quaerat.</p>
                 </motion.div>

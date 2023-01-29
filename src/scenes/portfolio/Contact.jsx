@@ -1,4 +1,4 @@
-import LineGradient from '../components/LineGradient';
+import LineGradient from "../../components/LineGradient";
 import {useForm} from "react-hook-form"
 import { motion } from 'framer-motion';
 
@@ -53,7 +53,7 @@ const Contact = () => {
             visible:{ opacity:1 , y:0 }
         }}
       >
-        <img alt='contact' src={require('../assets/contact-image.jpeg')}/>
+        <img alt='contact' src={require('../../assets/contact-image.jpeg')}/>
 
       </motion.div>
       <motion.div
